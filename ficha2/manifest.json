@@ -1,0 +1,21 @@
+{
+    "name": "Euromilhões" ,
+    "short_name": "Euromilhões" ,
+    "display" : "standalone" , 
+    "start_url" : "index1.html",
+    "theme_color" : "blue" ,
+    "background_color" : "#ffffff" , 
+
+    "icons": [
+        {
+            "src": "logo1.400x400.png",
+            "sizes": "400x400",
+            "type": "image/png"
+        },
+        {
+            "src": "logo2.357x327.png",
+            "sizes": "357x327",
+            "type": "image/png"
+        }
+    ]
+}
