@@ -13,7 +13,7 @@
     <h2>Account-maker</h2>
 
     <div class="container">
-        <form onsubmit="submitform(event)">
+        <form id="myForm" onsubmit="submitform(event)">
             <div class="mb-3">
                 <label class="form-label">Nome</label>
                 <input type="text" id="nome" class="form-control" required>
@@ -72,12 +72,7 @@
             console.log(nif);
             console.log(obs);
 
-            nome.innerHTML = "";
-            email.innerHTML = "";
-            numero.innerHTML = "";
-            morada.innerHTML = "";
-            nif.innerHTML = "";
-            obs.innerHTML = "";
+            document.getElementById("myForm").reset();
         }
     </script>
 
