@@ -1,0 +1,21 @@
+{
+    "name": "Account-maker" ,
+    "short_name": "Account-maker" ,
+    "display" : "standalone" , 
+    "start_url" : "index2.html",
+    "theme_color" : "blue" ,
+    "background_color" : "#ffffff" , 
+
+    "icons": [
+        {
+            "src": "logo3.512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "logo4.512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
