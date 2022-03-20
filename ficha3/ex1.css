@@ -1,0 +1,121 @@
+div{
+    margin-top: 50px;
+}
+
+/*Exercício 1*/
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: blue;
+    border: 1px solid black;
+}
+
+/*Exercício 2*/
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: red;
+    border: 1px solid black;
+}
+
+@media (min-width: 768px){
+    .grid2{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: red;
+        border: 1px solid black;
+    }
+}
+
+/*Exercício 3*/
+.grid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+
+@media (min-width: 576px){
+    .grid3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: black;
+        border: 1px solid white;
+        color: white;
+    }
+}
+
+.grid4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+
+@media (min-width: 576px){
+    .grid4{
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+        background-color: black;
+        border: 1px solid white;
+        color: white;
+    }
+}
+
+/*Exercício 4*/
+.grid5{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+@media (min-width: 576px){
+    .grid5{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        border: 1px solid black;
+    }
+}
+
+@media (min-width: 768px){
+    .grid5{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border: 1px solid black;
+    }
+}
+
+.grid6{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: green;
+    border: 1px solid black;
+}
+
+@media (min-width: 576px){
+    .grid6{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        border: 1px solid black;
+    }
+}
+
+@media (min-width: 768px){
+    .grid5{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border: 1px solid black;
+    }
+}
+
+@media (min-width: 992px){
+    .grid6{
+        display: grid;
+        grid-template-columns: 66% 33%;
+        background-color: green;
+        border: 1px solid black;
+    }
+}
