@@ -11,6 +11,11 @@
             "src": "chuck-norris.png",
             "sizes": "500x500",
             "type": "image/png"
+        },
+        {
+            "src": "png-clipart-chuck-norris-chuck-norris-thumbnail.png",
+            "sizes": "348x303",
+            "type": "image/png"
         }
     ]
 }
